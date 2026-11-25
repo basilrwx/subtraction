@@ -1,0 +1,1141 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+The content has been processed where line numbers have been added.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+5. Multiple file entries, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Line numbers have been added to the beginning of each line
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+</file_summary>
+
+<directory_structure>
+public/
+  favicon.svg
+  icons.svg
+src/
+  assets/
+    hero.png
+    svelte.svg
+    vite.svg
+  lib/
+    Counter.svelte
+  app.css
+  App.svelte
+  main.ts
+  questions.json
+.gitignore
+index.html
+package.json
+README.md
+svelte.config.js
+tsconfig.app.json
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+</directory_structure>
+
+<files>
+This section contains the contents of the repository's files.
+
+<file path="public/favicon.svg">
+1: <svg xmlns="http://www.w3.org/2000/svg" width="48" height="46" fill="none" viewBox="0 0 48 46"><path fill="#863bff" d="M25.946 44.938c-.664.845-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 0-2.262-2.262H10.287c-.92 0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.497 0-3.578-1.842-3.578H1.237c-.92 0-1.456-1.04-.92-1.788L10.013.474c.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.471c-1.07 1.498 0 3.579 1.842 3.579h11.377c.943 0 1.473 1.088.89 1.83L25.947 44.94z" style="fill:#863bff;fill:color(display-p3 .5252 .23 1);fill-opacity:1"/><mask id="a" width="48" height="46" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#000" d="M25.842 44.938c-.664.844-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 0-2.262-2.262H10.183c-.92 0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.498 0-3.579-1.842-3.579H1.133c-.92 0-1.456-1.04-.92-1.787L9.91.473c.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.471c-1.07 1.498 0 3.578 1.842 3.578h11.377c.943 0 1.473 1.088.89 1.832L25.843 44.94z" style="fill:#000;fill-opacity:1"/></mask><g mask="url(#a)"><g filter="url(#b)"><ellipse cx="5.508" cy="14.704" fill="#ede6ff" rx="5.508" ry="14.704" style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -4.47 31.516)"/></g><g filter="url(#c)"><ellipse cx="10.399" cy="29.851" fill="#ede6ff" rx="10.399" ry="29.851" style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -39.328 7.883)"/></g><g filter="url(#d)"><ellipse cx="5.508" cy="30.487" fill="#7e14ff" rx="5.508" ry="30.487" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.814 -25.913 -14.639)scale(1 -1)"/></g><g filter="url(#e)"><ellipse cx="5.508" cy="30.599" fill="#7e14ff" rx="5.508" ry="30.599" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.814 -32.644 -3.334)scale(1 -1)"/></g><g filter="url(#f)"><ellipse cx="5.508" cy="30.599" fill="#7e14ff" rx="5.508" ry="30.599" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -34.34 30.47)"/></g><g filter="url(#g)"><ellipse cx="14.072" cy="22.078" fill="#ede6ff" rx="14.072" ry="22.078" style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 1);fill-opacity:1" transform="rotate(93.35 24.506 48.493)scale(-1 1)"/></g><g filter="url(#h)"><ellipse cx="3.47" cy="21.501" fill="#7e14ff" rx="3.47" ry="21.501" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.009 28.708 47.59)scale(-1 1)"/></g><g filter="url(#i)"><ellipse cx="3.47" cy="21.501" fill="#7e14ff" rx="3.47" ry="21.501" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.009 28.708 47.59)scale(-1 1)"/></g><g filter="url(#j)"><ellipse cx=".387" cy="8.972" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(39.51 .387 8.972)"/></g><g filter="url(#k)"><ellipse cx="47.523" cy="-6.092" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 47.523 -6.092)"/></g><g filter="url(#l)"><ellipse cx="41.412" cy="6.333" fill="#47bfff" rx="5.971" ry="9.665" style="fill:#47bfff;fill:color(display-p3 .2799 .748 1);fill-opacity:1" transform="rotate(37.892 41.412 6.333)"/></g><g filter="url(#m)"><ellipse cx="-1.879" cy="38.332" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 -1.88 38.332)"/></g><g filter="url(#n)"><ellipse cx="-1.879" cy="38.332" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 -1.88 38.332)"/></g><g filter="url(#o)"><ellipse cx="35.651" cy="29.907" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 35.651 29.907)"/></g><g filter="url(#p)"><ellipse cx="38.418" cy="32.4" fill="#47bfff" rx="5.971" ry="15.297" style="fill:#47bfff;fill:color(display-p3 .2799 .748 1);fill-opacity:1" transform="rotate(37.892 38.418 32.4)"/></g></g><defs><filter id="b" width="60.045" height="41.654" x="-19.77" y="16.149" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="7.659"/></filter><filter id="c" width="90.34" height="51.437" x="-54.613" y="-7.533" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="7.659"/></filter><filter id="d" width="79.355" height="29.4" x="-49.64" y="2.03" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="e" width="79.579" height="29.4" x="-45.045" y="20.029" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="f" width="79.579" height="29.4" x="-43.513" y="21.178" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="g" width="74.749" height="58.852" x="15.756" y="-17.901" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="7.659"/></filter><filter id="h" width="61.377" height="25.362" x="23.548" y="2.284" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="i" width="61.377" height="25.362" x="23.548" y="2.284" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="j" width="56.045" height="63.649" x="-27.636" y="-22.853" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="k" width="54.814" height="64.646" x="20.116" y="-38.415" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="l" width="33.541" height="35.313" x="24.641" y="-11.323" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="m" width="54.814" height="64.646" x="-29.286" y="6.009" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="n" width="54.814" height="64.646" x="-29.286" y="6.009" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="o" width="54.814" height="64.646" x="8.244" y="-2.416" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="p" width="39.409" height="43.623" x="18.713" y="10.588" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter></defs></svg>
+</file>
+
+<file path="public/icons.svg">
+ 1: <svg xmlns="http://www.w3.org/2000/svg">
+ 2:   <symbol id="bluesky-icon" viewBox="0 0 16 17">
+ 3:     <g clip-path="url(#bluesky-clip)"><path fill="#08060d" d="M7.75 7.735c-.693-1.348-2.58-3.86-4.334-5.097-1.68-1.187-2.32-.981-2.74-.79C.188 2.065.1 2.812.1 3.251s.241 3.602.398 4.13c.52 1.744 2.367 2.333 4.07 2.145-2.495.37-4.71 1.278-1.805 4.512 3.196 3.309 4.38-.71 4.987-2.746.608 2.036 1.307 5.91 4.93 2.746 2.72-2.746.747-4.143-1.747-4.512 1.702.189 3.55-.4 4.07-2.145.156-.528.397-3.691.397-4.13s-.088-1.186-.575-1.406c-.42-.19-1.06-.395-2.741.79-1.755 1.24-3.64 3.752-4.334 5.099"/></g>
+ 4:     <defs><clipPath id="bluesky-clip"><path fill="#fff" d="M.1.85h15.3v15.3H.1z"/></clipPath></defs>
+ 5:   </symbol>
+ 6:   <symbol id="discord-icon" viewBox="0 0 20 19">
+ 7:     <path fill="#08060d" d="M16.224 3.768a14.5 14.5 0 0 0-3.67-1.153c-.158.286-.343.67-.47.976a13.5 13.5 0 0 0-4.067 0c-.128-.306-.317-.69-.476-.976A14.4 14.4 0 0 0 3.868 3.77C1.546 7.28.916 10.703 1.231 14.077a14.7 14.7 0 0 0 4.5 2.306q.545-.748.965-1.587a9.5 9.5 0 0 1-1.518-.74q.191-.14.372-.293c2.927 1.369 6.107 1.369 8.999 0q.183.152.372.294-.723.437-1.52.74.418.838.963 1.588a14.6 14.6 0 0 0 4.504-2.308c.37-3.911-.63-7.302-2.644-10.309m-9.13 8.234c-.878 0-1.599-.82-1.599-1.82 0-.998.705-1.82 1.6-1.82.894 0 1.614.82 1.599 1.82.001 1-.705 1.82-1.6 1.82m5.91 0c-.878 0-1.599-.82-1.599-1.82 0-.998.705-1.82 1.6-1.82.893 0 1.614.82 1.599 1.82 0 1-.706 1.82-1.6 1.82"/>
+ 8:   </symbol>
+ 9:   <symbol id="documentation-icon" viewBox="0 0 21 20">
+10:     <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="m15.5 13.333 1.533 1.322c.645.555.967.833.967 1.178s-.322.623-.967 1.179L15.5 18.333m-3.333-5-1.534 1.322c-.644.555-.966.833-.966 1.178s.322.623.966 1.179l1.534 1.321"/>
+11:     <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M17.167 10.836v-4.32c0-1.41 0-2.117-.224-2.68-.359-.906-1.118-1.621-2.08-1.96-.599-.21-1.349-.21-2.848-.21-2.623 0-3.935 0-4.983.369-1.684.591-3.013 1.842-3.641 3.428C3 6.449 3 7.684 3 10.154v2.122c0 2.558 0 3.838.706 4.726q.306.383.713.671c.76.536 1.79.64 3.581.66"/>
+12:     <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M3 10a2.78 2.78 0 0 1 2.778-2.778c.555 0 1.209.097 1.748-.047.48-.129.854-.503.982-.982.145-.54.048-1.194.048-1.749a2.78 2.78 0 0 1 2.777-2.777"/>
+13:   </symbol>
+14:   <symbol id="github-icon" viewBox="0 0 19 19">
+15:     <path fill="#08060d" fill-rule="evenodd" d="M9.356 1.85C5.05 1.85 1.57 5.356 1.57 9.694a7.84 7.84 0 0 0 5.324 7.44c.387.079.528-.168.528-.376 0-.182-.013-.805-.013-1.454-2.165.467-2.616-.935-2.616-.935-.349-.91-.864-1.143-.864-1.143-.71-.48.051-.48.051-.48.787.051 1.2.805 1.2.805.695 1.194 1.817.857 2.268.649.064-.507.27-.857.49-1.052-1.728-.182-3.545-.857-3.545-3.87 0-.857.31-1.558.8-2.104-.078-.195-.349-1 .077-2.078 0 0 .657-.208 2.14.805a7.5 7.5 0 0 1 1.946-.26c.657 0 1.328.092 1.946.26 1.483-1.013 2.14-.805 2.14-.805.426 1.078.155 1.883.078 2.078.502.546.799 1.247.799 2.104 0 3.013-1.818 3.675-3.558 3.87.284.247.528.714.528 1.454 0 1.052-.012 1.896-.012 2.156 0 .208.142.455.528.377a7.84 7.84 0 0 0 5.324-7.441c.013-4.338-3.48-7.844-7.773-7.844" clip-rule="evenodd"/>
+16:   </symbol>
+17:   <symbol id="social-icon" viewBox="0 0 20 20">
+18:     <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M12.5 6.667a4.167 4.167 0 1 0-8.334 0 4.167 4.167 0 0 0 8.334 0"/>
+19:     <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M2.5 16.667a5.833 5.833 0 0 1 8.75-5.053m3.837.474.513 1.035c.07.144.257.282.414.309l.93.155c.596.1.736.536.307.965l-.723.73a.64.64 0 0 0-.152.531l.207.903c.164.715-.213.991-.84.618l-.872-.52a.63.63 0 0 0-.577 0l-.872.52c-.624.373-1.003.094-.84-.618l.207-.903a.64.64 0 0 0-.152-.532l-.723-.729c-.426-.43-.289-.864.306-.964l.93-.156a.64.64 0 0 0 .412-.31l.513-1.034c.28-.562.735-.562 1.012 0"/>
+20:   </symbol>
+21:   <symbol id="x-icon" viewBox="0 0 19 19">
+22:     <path fill="#08060d" fill-rule="evenodd" d="M1.893 1.98c.052.072 1.245 1.769 2.653 3.77l2.892 4.114c.183.261.333.48.333.486s-.068.089-.152.183l-.522.593-.765.867-3.597 4.087c-.375.426-.734.834-.798.905a1 1 0 0 0-.118.148c0 .01.236.017.664.017h.663l.729-.83c.4-.457.796-.906.879-.999a692 692 0 0 0 1.794-2.038c.034-.037.301-.34.594-.675l.551-.624.345-.392a7 7 0 0 1 .34-.374c.006 0 .93 1.306 2.052 2.903l2.084 2.965.045.063h2.275c1.87 0 2.273-.003 2.266-.021-.008-.02-1.098-1.572-3.894-5.547-2.013-2.862-2.28-3.246-2.273-3.266.008-.019.282-.332 2.085-2.38l2-2.274 1.567-1.782c.022-.028-.016-.03-.65-.03h-.674l-.3.342a871 871 0 0 1-1.782 2.025c-.067.075-.405.458-.75.852a100 100 0 0 1-.803.91c-.148.172-.299.344-.99 1.127-.304.343-.32.358-.345.327-.015-.019-.904-1.282-1.976-2.808L6.365 1.85H1.8zm1.782.91 8.078 11.294c.772 1.08 1.413 1.973 1.425 1.984.016.017.241.02 1.05.017l1.03-.004-2.694-3.766L7.796 5.75 5.722 2.852l-1.039-.004-1.039-.004z" clip-rule="evenodd"/>
+23:   </symbol>
+24: </svg>
+</file>
+
+<file path="src/assets/svelte.svg">
+1: <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--logos" width="26.6" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 308"><path fill="#FF3E00" d="M239.682 40.707C211.113-.182 154.69-12.301 113.895 13.69L42.247 59.356a82.198 82.198 0 0 0-37.135 55.056a86.566 86.566 0 0 0 8.536 55.576a82.425 82.425 0 0 0-12.296 30.719a87.596 87.596 0 0 0 14.964 66.244c28.574 40.893 84.997 53.007 125.787 27.016l71.648-45.664a82.182 82.182 0 0 0 37.135-55.057a86.601 86.601 0 0 0-8.53-55.577a82.409 82.409 0 0 0 12.29-30.718a87.573 87.573 0 0 0-14.963-66.244"></path><path fill="#FFF" d="M106.889 270.841c-23.102 6.007-47.497-3.036-61.103-22.648a52.685 52.685 0 0 1-9.003-39.85a49.978 49.978 0 0 1 1.713-6.693l1.35-4.115l3.671 2.697a92.447 92.447 0 0 0 28.036 14.007l2.663.808l-.245 2.659a16.067 16.067 0 0 0 2.89 10.656a17.143 17.143 0 0 0 18.397 6.828a15.786 15.786 0 0 0 4.403-1.935l71.67-45.672a14.922 14.922 0 0 0 6.734-9.977a15.923 15.923 0 0 0-2.713-12.011a17.156 17.156 0 0 0-18.404-6.832a15.78 15.78 0 0 0-4.396 1.933l-27.35 17.434a52.298 52.298 0 0 1-14.553 6.391c-23.101 6.007-47.497-3.036-61.101-22.649a52.681 52.681 0 0 1-9.004-39.849a49.428 49.428 0 0 1 22.34-33.114l71.664-45.677a52.218 52.218 0 0 1 14.563-6.398c23.101-6.007 47.497 3.036 61.101 22.648a52.685 52.685 0 0 1 9.004 39.85a50.559 50.559 0 0 1-1.713 6.692l-1.35 4.116l-3.67-2.693a92.373 92.373 0 0 0-28.037-14.013l-2.664-.809l.246-2.658a16.099 16.099 0 0 0-2.89-10.656a17.143 17.143 0 0 0-18.398-6.828a15.786 15.786 0 0 0-4.402 1.935l-71.67 45.674a14.898 14.898 0 0 0-6.73 9.975a15.9 15.9 0 0 0 2.709 12.012a17.156 17.156 0 0 0 18.404 6.832a15.841 15.841 0 0 0 4.402-1.935l27.345-17.427a52.147 52.147 0 0 1 14.552-6.397c23.101-6.006 47.497 3.037 61.102 22.65a52.681 52.681 0 0 1 9.003 39.848a49.453 49.453 0 0 1-22.34 33.12l-71.664 45.673a52.218 52.218 0 0 1-14.563 6.398"></path></svg>
+</file>
+
+<file path="src/assets/vite.svg">
+1: <svg xmlns="http://www.w3.org/2000/svg" width="77" height="47" fill="none" aria-labelledby="vite-logo-title" viewBox="0 0 77 47"><title id="vite-logo-title">Vite</title><style>.parenthesis{fill:#000}@media (prefers-color-scheme:dark){.parenthesis{fill:#fff}}</style><path fill="#9135ff" d="M40.151 45.71c-.663.844-2.02.374-2.02-.699V34.708a2.26 2.26 0 0 0-2.262-2.262H24.493c-.92 0-1.457-1.04-.92-1.788l7.479-10.471c1.07-1.498 0-3.578-1.842-3.578H15.443c-.92 0-1.456-1.04-.92-1.788l9.696-13.576c.213-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.472c-1.07 1.497 0 3.578 1.842 3.578h11.376c.944 0 1.474 1.087.89 1.83L40.153 45.712z"/><mask id="a" width="48" height="47" x="14" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#000" d="M40.047 45.71c-.663.843-2.02.374-2.02-.699V34.708a2.26 2.26 0 0 0-2.262-2.262H24.389c-.92 0-1.457-1.04-.92-1.788l7.479-10.472c1.07-1.497 0-3.578-1.842-3.578H15.34c-.92 0-1.456-1.04-.92-1.788l9.696-13.575c.213-.297.556-.474.92-.474H53.93c.92 0 1.456 1.04.92 1.788L47.37 13.03c-1.07 1.498 0 3.578 1.842 3.578h11.376c.944 0 1.474 1.088.89 1.831L40.049 45.712z"/></mask><g mask="url(#a)"><g filter="url(#b)"><ellipse cx="5.508" cy="14.704" fill="#eee6ff" rx="5.508" ry="14.704" transform="rotate(269.814 20.96 11.29)scale(-1 1)"/></g><g filter="url(#c)"><ellipse cx="10.399" cy="29.851" fill="#eee6ff" rx="10.399" ry="29.851" transform="rotate(89.814 -16.902 -8.275)scale(1 -1)"/></g><g filter="url(#d)"><ellipse cx="5.508" cy="30.487" fill="#8900ff" rx="5.508" ry="30.487" transform="rotate(89.814 -19.197 -7.127)scale(1 -1)"/></g><g filter="url(#e)"><ellipse cx="5.508" cy="30.599" fill="#8900ff" rx="5.508" ry="30.599" transform="rotate(89.814 -25.928 4.177)scale(1 -1)"/></g><g filter="url(#f)"><ellipse cx="5.508" cy="30.599" fill="#8900ff" rx="5.508" ry="30.599" transform="rotate(89.814 -25.738 5.52)scale(1 -1)"/></g><g filter="url(#g)"><ellipse cx="14.072" cy="22.078" fill="#eee6ff" rx="14.072" ry="22.078" transform="rotate(93.35 31.245 55.578)scale(-1 1)"/></g><g filter="url(#h)"><ellipse cx="3.47" cy="21.501" fill="#8900ff" rx="3.47" ry="21.501" transform="rotate(89.009 35.419 55.202)scale(-1 1)"/></g><g filter="url(#i)"><ellipse cx="3.47" cy="21.501" fill="#8900ff" rx="3.47" ry="21.501" transform="rotate(89.009 35.419 55.202)scale(-1 1)"/></g><g filter="url(#j)"><ellipse cx="14.592" cy="9.743" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(39.51 14.592 9.743)"/></g><g filter="url(#k)"><ellipse cx="61.728" cy="-5.321" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(37.892 61.728 -5.32)"/></g><g filter="url(#l)"><ellipse cx="55.618" cy="7.104" fill="#00c2ff" rx="5.971" ry="9.665" transform="rotate(37.892 55.618 7.104)"/></g><g filter="url(#m)"><ellipse cx="12.326" cy="39.103" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(37.892 12.326 39.103)"/></g><g filter="url(#n)"><ellipse cx="12.326" cy="39.103" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(37.892 12.326 39.103)"/></g><g filter="url(#o)"><ellipse cx="49.857" cy="30.678" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(37.892 49.857 30.678)"/></g><g filter="url(#p)"><ellipse cx="52.623" cy="33.171" fill="#00c2ff" rx="5.971" ry="15.297" transform="rotate(37.892 52.623 33.17)"/></g></g><path d="M6.919 0c-9.198 13.166-9.252 33.575 0 46.789h6.215c-9.25-13.214-9.196-33.623 0-46.789zm62.424 0h-6.215c9.198 13.166 9.252 33.575 0 46.789h6.215c9.25-13.214 9.196-33.623 0-46.789" class="parenthesis"/><defs><filter id="b" width="60.045" height="41.654" x="-5.564" y="16.92" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="7.659"/></filter><filter id="c" width="90.34" height="51.437" x="-40.407" y="-6.762" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="7.659"/></filter><filter id="d" width="79.355" height="29.4" x="-35.435" y="2.801" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="e" width="79.579" height="29.4" x="-30.84" y="20.8" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="f" width="79.579" height="29.4" x="-29.307" y="21.949" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="g" width="74.749" height="58.852" x="29.961" y="-17.13" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="7.659"/></filter><filter id="h" width="61.377" height="25.362" x="37.754" y="3.055" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="i" width="61.377" height="25.362" x="37.754" y="3.055" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="j" width="56.045" height="63.649" x="-13.43" y="-22.082" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="k" width="54.814" height="64.646" x="34.321" y="-37.644" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="l" width="33.541" height="35.313" x="38.847" y="-10.552" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="m" width="54.814" height="64.646" x="-15.081" y="6.78" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="n" width="54.814" height="64.646" x="-15.081" y="6.78" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="o" width="54.814" height="64.646" x="22.45" y="-1.645" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="p" width="39.409" height="43.623" x="32.919" y="11.36" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter></defs></svg>
+</file>
+
+<file path="src/lib/Counter.svelte">
+ 1: <script lang="ts">
+ 2:   let count: number = $state(0)
+ 3:   const increment = () => {
+ 4:     count += 1
+ 5:   }
+ 6: </script>
+ 7: 
+ 8: <button type="button" class="counter" onclick={increment}>
+ 9:   Count is {count}
+10: </button>
+</file>
+
+<file path="src/app.css">
+  1: :root {
+  2:   --text: #6b6375;
+  3:   --text-h: #000000;
+  4:   --bg: #fff;
+  5:   --border: #e5e4e7;
+  6:   --code-bg: #f4f3ec;
+  7:   --accent: #aa3bff;
+  8:   --accent-bg: rgba(170, 59, 255, 0.1);
+  9:   --accent-border: rgba(170, 59, 255, 0.5);
+ 10:   --social-bg: rgba(244, 243, 236, 0.5);
+ 11:   --shadow:
+ 12:     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+ 13: 
+ 14:   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+ 15:   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+ 16:   --mono: ui-monospace, Consolas, monospace;
+ 17: 
+ 18:   font: 18px/145% var(--sans);
+ 19:   letter-spacing: 0.18px;
+ 20:   color-scheme: light dark;
+ 21:   color: var(--text);
+ 22:   background: var(--bg);
+ 23:   font-synthesis: none;
+ 24:   text-rendering: optimizeLegibility;
+ 25:   -webkit-font-smoothing: antialiased;
+ 26:   -moz-osx-font-smoothing: grayscale;
+ 27: 
+ 28:   @media (max-width: 1024px) {
+ 29:     font-size: 16px;
+ 30:   }
+ 31: }
+ 32: 
+ 33: @media (prefers-color-scheme: dark) {
+ 34:   :root {
+ 35:     --text: #9ca3af;
+ 36:     --text-h: #f3f4f6;
+ 37:     --bg: #16171d;
+ 38:     --border: #2e303a;
+ 39:     --code-bg: #1f2028;
+ 40:     --accent: #c084fc;
+ 41:     --accent-bg: rgba(192, 132, 252, 0.15);
+ 42:     --accent-border: rgba(192, 132, 252, 0.5);
+ 43:     --social-bg: rgba(47, 48, 58, 0.5);
+ 44:     --shadow:
+ 45:       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+ 46:   }
+ 47: 
+ 48:   #social .button-icon {
+ 49:     filter: invert(1) brightness(2);
+ 50:   }
+ 51: }
+ 52: 
+ 53: body {
+ 54:   margin: 0;
+ 55: }
+ 56: 
+ 57: h1,
+ 58: h2 {
+ 59:   font-family: var(--heading);
+ 60:   font-weight: 500;
+ 61:   color: #000000;
+ 62: }
+ 63: 
+ 64: h1 {
+ 65:   font-size: 56px;
+ 66:   letter-spacing: -1.68px;
+ 67:   margin: 32px 0;
+ 68:   @media (max-width: 1024px) {
+ 69:     font-size: 36px;
+ 70:     margin: 20px 0;
+ 71:   }
+ 72: }
+ 73: h2 {
+ 74:   font-size: 24px;
+ 75:   line-height: 118%;
+ 76:   letter-spacing: -0.24px;
+ 77:   margin: 0 0 8px;
+ 78:   @media (max-width: 1024px) {
+ 79:     font-size: 20px;
+ 80:   }
+ 81: }
+ 82: p {
+ 83:   margin: 0;
+ 84: }
+ 85: 
+ 86: code,
+ 87: .counter {
+ 88:   font-family: var(--mono);
+ 89:   display: inline-flex;
+ 90:   border-radius: 4px;
+ 91:   color: var(--text-h);
+ 92: }
+ 93: 
+ 94: code {
+ 95:   font-size: 15px;
+ 96:   line-height: 135%;
+ 97:   padding: 4px 8px;
+ 98:   background: var(--code-bg);
+ 99: }
+100: 
+101: .counter {
+102:   font-size: 16px;
+103:   padding: 5px 10px;
+104:   border-radius: 5px;
+105:   color: var(--accent);
+106:   background: var(--accent-bg);
+107:   border: 2px solid transparent;
+108:   transition: border-color 0.3s;
+109:   margin-bottom: 24px;
+110: 
+111:   &:hover {
+112:     border-color: var(--accent-border);
+113:   }
+114:   &:focus-visible {
+115:     outline: 2px solid var(--accent);
+116:     outline-offset: 2px;
+117:   }
+118: }
+119: 
+120: .hero {
+121:   position: relative;
+122: 
+123:   .base,
+124:   .framework,
+125:   .vite {
+126:     inset-inline: 0;
+127:     margin: 0 auto;
+128:   }
+129: 
+130:   .base {
+131:     width: 170px;
+132:     position: relative;
+133:     z-index: 0;
+134:   }
+135: 
+136:   .framework,
+137:   .vite {
+138:     position: absolute;
+139:   }
+140: 
+141:   .framework {
+142:     z-index: 1;
+143:     top: 34px;
+144:     height: 28px;
+145:     transform: perspective(2000px) rotateZ(300deg) rotateX(44deg) rotateY(39deg)
+146:       scale(1.4);
+147:   }
+148: 
+149:   .vite {
+150:     z-index: 0;
+151:     top: 107px;
+152:     height: 26px;
+153:     width: auto;
+154:     transform: perspective(2000px) rotateZ(300deg) rotateX(40deg) rotateY(39deg)
+155:       scale(0.8);
+156:   }
+157: }
+158: 
+159: #app {
+160:   width: 1126px;
+161:   max-width: 100%;
+162:   margin: 0 auto;
+163:   text-align: center;
+164:   border-inline: 1px solid var(--border);
+165:   min-height: 100svh;
+166:   display: flex;
+167:   flex-direction: column;
+168:   box-sizing: border-box;
+169: }
+170: 
+171: #center {
+172:   display: flex;
+173:   flex-direction: column;
+174:   gap: 25px;
+175:   place-content: center;
+176:   place-items: center;
+177:   flex-grow: 1;
+178: 
+179:   @media (max-width: 1024px) {
+180:     padding: 32px 20px 24px;
+181:     gap: 18px;
+182:   }
+183: }
+184: 
+185: #next-steps {
+186:   display: flex;
+187:   border-top: 1px solid var(--border);
+188:   text-align: left;
+189: 
+190:   & > div {
+191:     flex: 1 1 0;
+192:     padding: 32px;
+193:     @media (max-width: 1024px) {
+194:       padding: 24px 20px;
+195:     }
+196:   }
+197: 
+198:   .icon {
+199:     margin-bottom: 16px;
+200:     width: 22px;
+201:     height: 22px;
+202:   }
+203: 
+204:   @media (max-width: 1024px) {
+205:     flex-direction: column;
+206:     text-align: center;
+207:   }
+208: }
+209: 
+210: #docs {
+211:   border-right: 1px solid var(--border);
+212: 
+213:   @media (max-width: 1024px) {
+214:     border-right: none;
+215:     border-bottom: 1px solid var(--border);
+216:   }
+217: }
+218: 
+219: #next-steps ul {
+220:   list-style: none;
+221:   padding: 0;
+222:   display: flex;
+223:   gap: 8px;
+224:   margin: 32px 0 0;
+225: 
+226:   .logo {
+227:     height: 18px;
+228:   }
+229: 
+230:   a {
+231:     color: var(--text-h);
+232:     font-size: 16px;
+233:     border-radius: 6px;
+234:     background: var(--social-bg);
+235:     display: flex;
+236:     padding: 6px 12px;
+237:     align-items: center;
+238:     gap: 8px;
+239:     text-decoration: none;
+240:     transition: box-shadow 0.3s;
+241: 
+242:     &:hover {
+243:       box-shadow: var(--shadow);
+244:     }
+245:     .button-icon {
+246:       height: 18px;
+247:       width: 18px;
+248:     }
+249:   }
+250: 
+251:   @media (max-width: 1024px) {
+252:     margin-top: 20px;
+253:     flex-wrap: wrap;
+254:     justify-content: center;
+255: 
+256:     li {
+257:       flex: 1 1 calc(50% - 8px);
+258:     }
+259: 
+260:     a {
+261:       width: 100%;
+262:       justify-content: center;
+263:       box-sizing: border-box;
+264:     }
+265:   }
+266: }
+267: 
+268: #spacer {
+269:   height: 88px;
+270:   border-top: 1px solid var(--border);
+271:   @media (max-width: 1024px) {
+272:     height: 48px;
+273:   }
+274: }
+275: 
+276: .ticks {
+277:   position: relative;
+278:   width: 100%;
+279: 
+280:   &::before,
+281:   &::after {
+282:     content: '';
+283:     position: absolute;
+284:     top: -4.5px;
+285:     border: 5px solid transparent;
+286:   }
+287: 
+288:   &::before {
+289:     left: 0;
+290:     border-left-color: var(--border);
+291:   }
+292:   &::after {
+293:     right: 0;
+294:     border-right-color: var(--border);
+295:   }
+296: }
+</file>
+
+<file path="src/App.svelte">
+  1: <script>
+  2:   import { onDestroy, tick } from 'svelte';
+  3:   import questionsData from './questions.json';
+  4: 
+  5:   const MAX_LIVES = 3;
+  6:   const QUESTION_TIME_LIMIT = 10;
+  7:   const totalQuestions = questionsData.length;
+  8: 
+  9:   // Game state
+ 10:   let lives = MAX_LIVES;
+ 11:   let remainingQuestions = [...questionsData];
+ 12:   let currentQuestion = null;
+ 13:   let userAnswer = '';
+ 14:   let feedbackMessage = '';
+ 15:   let feedbackStatus = ''; // 'correct' | 'wrong' | ''
+ 16:   let gameState = 'idle'; // 'idle' | 'playing' | 'won' | 'lost'
+ 17:   let correctCount = 0;
+ 18:   let incorrectCount = 0;
+ 19:   let inputField;
+ 20: 
+ 21:   // Timer state
+ 22:   let timeLeft = QUESTION_TIME_LIMIT;
+ 23:   let timerId = null;
+ 24: 
+ 25:   // Reactive counts
+ 26:   $: completedCount = totalQuestions - remainingQuestions.length;
+ 27:   $: attemptedCount = correctCount + incorrectCount;
+ 28: 
+ 29:   // Pick a random question object from the given array
+ 30:   function getRandomQuestion(questionList) {
+ 31:     if (questionList.length === 0) {
+ 32:       return null;
+ 33:     }
+ 34:     const randomIndex = Math.floor(Math.random() * questionList.length);
+ 35:     return questionList[randomIndex];
+ 36:   }
+ 37: 
+ 38:   // Stop any running countdown interval
+ 39:   function stopTimer() {
+ 40:     if (timerId !== null) {
+ 41:       clearInterval(timerId);
+ 42:       timerId = null;
+ 43:     }
+ 44:   }
+ 45: 
+ 46:   // Start or reset the 10-second countdown for the active question
+ 47:   function startTimer() {
+ 48:     stopTimer();
+ 49:     timeLeft = QUESTION_TIME_LIMIT;
+ 50: 
+ 51:     timerId = setInterval(() => {
+ 52:       if (gameState !== 'playing') {
+ 53:         stopTimer();
+ 54:         return;
+ 55:       }
+ 56: 
+ 57:       timeLeft -= 1;
+ 58: 
+ 59:       if (timeLeft <= 0) {
+ 60:         handleTimeOut();
+ 61:       }
+ 62:     }, 1000);
+ 63:   }
+ 64: 
+ 65:   // Start the game for the first time when the Start button is pressed
+ 66:   async function startGame() {
+ 67:     correctCount = 0;
+ 68:     incorrectCount = 0;
+ 69:     remainingQuestions = [...questionsData];
+ 70:     currentQuestion = getRandomQuestion(remainingQuestions);
+ 71:     gameState = 'playing';
+ 72:     startTimer();
+ 73: 
+ 74:     await tick();
+ 75:     if (inputField) {
+ 76:       inputField.focus();
+ 77:     }
+ 78:   }
+ 79: 
+ 80:   // Evaluate the player's answer (both manual submit and timer expiration)
+ 81:   function evaluateAnswer(cleanedAnswer, isTimeout) {
+ 82:     stopTimer();
+ 83: 
+ 84:     const isCorrect =
+ 85:       cleanedAnswer !== '' &&
+ 86:       cleanedAnswer === currentQuestion.answer.trim();
+ 87: 
+ 88:     if (isCorrect) {
+ 89:       correctCount += 1;
+ 90:       remainingQuestions = remainingQuestions.filter(
+ 91:         (item) => item !== currentQuestion
+ 92:       );
+ 93: 
+ 94:       if (remainingQuestions.length === 0) {
+ 95:         gameState = 'won';
+ 96:         return;
+ 97:       }
+ 98: 
+ 99:       feedbackMessage = isTimeout
+100:         ? "Time's up, but your answer was correct!"
+101:         : 'Correct!';
+102:       feedbackStatus = 'correct';
+103:     } else {
+104:       incorrectCount += 1;
+105:       lives -= 1;
+106: 
+107:       if (lives <= 0) {
+108:         lives = 0;
+109:         gameState = 'lost';
+110:         return;
+111:       }
+112: 
+113:       if (isTimeout && cleanedAnswer === '') {
+114:         feedbackMessage = `Time's up! No answer was entered for "${currentQuestion.question}".`;
+115:       } else if (isTimeout) {
+116:         feedbackMessage = `Time's up! "${currentQuestion.question}" is not ${cleanedAnswer}.`;
+117:       } else {
+118:         feedbackMessage = `Wrong! "${currentQuestion.question}" is not ${cleanedAnswer}.`;
+119:       }
+120:       feedbackStatus = 'wrong';
+121:     }
+122: 
+123:     userAnswer = '';
+124:     currentQuestion = getRandomQuestion(remainingQuestions);
+125:     startTimer();
+126: 
+127:     if (inputField) {
+128:       inputField.focus();
+129:     }
+130:   }
+131: 
+132:   // Check whatever is currently in the input box when the timer hits 0
+133:   function handleTimeOut() {
+134:     if (gameState !== 'playing') {
+135:       return;
+136:     }
+137:     evaluateAnswer(userAnswer.trim(), true);
+138:   }
+139: 
+140:   // Handle manual form submission
+141:   function handleSubmit() {
+142:     const cleanedAnswer = userAnswer.trim();
+143: 
+144:     if (cleanedAnswer === '' || gameState !== 'playing') {
+145:       return;
+146:     }
+147: 
+148:     evaluateAnswer(cleanedAnswer, false);
+149:   }
+150: 
+151:   // Reset all fields and restart the timer for a fresh game
+152:   async function restartGame() {
+153:     lives = MAX_LIVES;
+154:     correctCount = 0;
+155:     incorrectCount = 0;
+156:     remainingQuestions = [...questionsData];
+157:     currentQuestion = getRandomQuestion(remainingQuestions);
+158:     userAnswer = '';
+159:     feedbackMessage = '';
+160:     feedbackStatus = '';
+161:     gameState = 'playing';
+162:     startTimer();
+163: 
+164:     await tick();
+165:     if (inputField) {
+166:       inputField.focus();
+167:     }
+168:   }
+169: 
+170:   onDestroy(() => {
+171:     stopTimer();
+172:   });
+173: </script>
+174: 
+175: <main class="game-container">
+176:   <div class="card">
+177:     <header class="status-bar">
+178:       <div class="lives" aria-label="Remaining lives">
+179:         {#each Array(MAX_LIVES) as _, index}
+180:           <span class="heart" class:lost={index >= lives}>
+181:             {index < lives ? '❤️' : '🖤'}
+182:           </span>
+183:         {/each}
+184:       </div>
+185: 
+186:       {#if gameState === 'playing'}
+187:         <div
+188:           class="timer"
+189:           class:urgent={timeLeft <= 3}
+190:           aria-label="Time remaining"
+191:         >
+192:           ⏱️ {timeLeft}s
+193:         </div>
+194:       {/if}
+195: 
+196:       <div class="progress">
+197:         Completed: <strong>{completedCount} / {totalQuestions}</strong>
+198:       </div>
+199:     </header>
+200: 
+201:     {#if gameState === 'idle'}
+202:       <section class="start-screen">
+203:         <h2>Subtraction Challenge</h2>
+204:         <p>You have {QUESTION_TIME_LIMIT} seconds per question and {MAX_LIVES} lives in total.</p>
+205:         <button on:click={startGame} class="btn primary">Start</button>
+206:       </section>
+207:     {:else if gameState === 'playing' && currentQuestion}
+208:       <section class="play-area">
+209:         <p class="prompt-label">Solve the subtraction:</p>
+210:         <h1 class="question-text">{currentQuestion.question} = ?</h1>
+211: 
+212:         <form on:submit|preventDefault={handleSubmit} class="answer-form">
+213:           <label for="answer-input" class="sr-only">Your Answer</label>
+214:           <input
+215:             id="answer-input"
+216:             bind:this={inputField}
+217:             bind:value={userAnswer}
+218:             type="text"
+219:             inputmode="numeric"
+220:             placeholder="Enter answer"
+221:             autocomplete="off"
+222:             required
+223:           />
+224:           <button type="submit" class="btn primary">Submit</button>
+225:         </form>
+226: 
+227:         <p class="feedback {feedbackStatus}" role="status" aria-live="polite">
+228:           {feedbackMessage || '\u00A0'}
+229:         </p>
+230:       </section>
+231:     {:else if gameState === 'won'}
+232:       <section class="end-screen">
+233:         <h1>You Won!</h1>
+234:         <p>You answered all {totalQuestions} questions correctly.</p>
+235:         <button on:click={restartGame} class="btn primary">Play Again</button>
+236:       </section>
+237:     {:else if gameState === 'lost'}
+238:       <section class="end-screen">
+239:         <h1>Game Over!</h1>
+240:         <p class="end-subtitle">You ran out of lives.</p>
+241: 
+242:         <div class="stats-list" aria-label="Game summary">
+243:           <div class="stat-row">
+244:             <span class="stat-label">Questions Attempted / Completed</span>
+245:             <span class="stat-value">{attemptedCount} / {totalQuestions}</span>
+246:           </div>
+247:           <div class="stat-row">
+248:             <span class="stat-label">Answered Correctly</span>
+249:             <span class="stat-value correct">{correctCount}</span>
+250:           </div>
+251:           <div class="stat-row">
+252:             <span class="stat-label">Answered Incorrectly</span>
+253:             <span class="stat-value wrong">{incorrectCount}</span>
+254:           </div>
+255:         </div>
+256: 
+257:         <button on:click={restartGame} class="btn primary">Try Again</button>
+258:       </section>
+259:     {/if}
+260:   </div>
+261: </main>
+262: 
+263: <style>
+264:   :global(*),
+265:   :global(*::before),
+266:   :global(*::after) {
+267:     box-sizing: border-box;
+268:   }
+269: 
+270:   :global(html),
+271:   :global(body) {
+272:     margin: 0;
+273:     padding: 0;
+274:     width: 100%;
+275:     height: 100%;
+276:   }
+277: 
+278:   .game-container {
+279:     min-height: 100vh;
+280:     min-height: 100dvh;
+281:     width: 100%;
+282:     display: flex;
+283:     align-items: center;
+284:     justify-content: center;
+285:     background-color: #f4f6f9;
+286:     font-family: system-ui, -apple-system, sans-serif;
+287:     padding: clamp(0.5rem, 2.5vw, 1rem);
+288:   }
+289: 
+290:   .card {
+291:     background: #ffffff;
+292:     width: 100%;
+293:     max-width: 560px;
+294:     padding: clamp(0.875rem, 4vw, 2rem);
+295:     border-radius: 12px;
+296:     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+297:     text-align: center;
+298:   }
+299: 
+300:   .status-bar {
+301:     display: flex;
+302:     flex-wrap: wrap;
+303:     justify-content: space-between;
+304:     align-items: center;
+305:     gap: 0.75rem;
+306:     padding-bottom: 1.25rem;
+307:     margin-bottom: 1.5rem;
+308:     border-bottom: 1px solid #e5e7eb;
+309:   }
+310: 
+311:   .lives {
+312:     display: flex;
+313:     gap: 0.35rem;
+314:     font-size: 1.35rem;
+315:   }
+316: 
+317:   .heart.lost {
+318:     opacity: 0.35;
+319:   }
+320: 
+321:   .timer {
+322:     font-size: 1rem;
+323:     font-weight: 700;
+324:     color: #1f2937;
+325:     background-color: #f3f4f6;
+326:     padding: 0.3rem 0.7rem;
+327:     border-radius: 999px;
+328:     font-variant-numeric: tabular-nums;
+329:   }
+330: 
+331:   .timer.urgent {
+332:     color: #dc2626;
+333:     background-color: #fee2e2;
+334:   }
+335: 
+336:   .progress {
+337:     font-size: 0.95rem;
+338:     color: #4b5563;
+339:   }
+340: 
+341:   .prompt-label {
+342:     color: #6b7280;
+343:     margin-bottom: 0.8rem;
+344:     font-size: 0.95rem;
+345:   }
+346: 
+347:   .question-text {
+348:     font-size: clamp(2rem, 6vw, 2.5rem);
+349:     margin: 0.5rem 0 1.5rem;
+350:     color: #111827;
+351:   }
+352: 
+353:   .answer-form {
+354:     display: flex;
+355:     flex-wrap: wrap;
+356:     gap: 0.75rem;
+357:     justify-content: center;
+358:   }
+359: 
+360:   input {
+361:     flex: 1 1 140px;
+362:     max-width: 180px;
+363:     min-width: 0;
+364:     padding: 0.75rem;
+365:     font-size: 1.25rem;
+366:     text-align: center;
+367:     border: 2px solid #d1d5db;
+368:     border-radius: 8px;
+369:     outline: none;
+370:   }
+371: 
+372:   input:focus {
+373:     border-color: #2563eb;
+374:   }
+375: 
+376:   .btn {
+377:     padding: 0.75rem 1.25rem;
+378:     font-size: 1rem;
+379:     font-weight: 600;
+380:     border: none;
+381:     border-radius: 8px;
+382:     cursor: pointer;
+383:   }
+384: 
+385:   .btn.primary {
+386:     background-color: #2563eb;
+387:     color: #ffffff;
+388:   }
+389: 
+390:   .btn.primary:hover {
+391:     background-color: #1d4ed8;
+392:   }
+393: 
+394:   .feedback {
+395:     margin: 1.25rem 0 0;
+396:     min-height: 2.25rem;
+397:     display: flex;
+398:     align-items: center;
+399:     justify-content: center;
+400:     font-weight: 600;
+401:     font-size: 0.95rem;
+402:     line-height: 1.4;
+403:   }
+404: 
+405:   .feedback.correct {
+406:     color: #16a34a;
+407:   }
+408: 
+409:   .feedback.wrong {
+410:     color: #dc2626;
+411:   }
+412: 
+413:   .start-screen h2,
+414:   .end-screen h1 {
+415:     margin-top: 0;
+416:     margin-bottom: 1.25rem;
+417:     color: #111827;
+418:   }
+419: 
+420:   .start-screen p,
+421:   .end-screen p {
+422:     color: #4b5563;
+423:     margin-bottom: 1.5rem;
+424:   }
+425: 
+426:   .start-screen p {
+427:     font-size: clamp(0.68rem, 3vw, 1rem);
+428:   }
+429: 
+430:   .end-screen .end-subtitle {
+431:     margin-bottom: 1rem;
+432:   }
+433: 
+434:   .stats-list {
+435:     display: flex;
+436:     flex-direction: column;
+437:     gap: 0.6rem;
+438:     max-width: 380px;
+439:     margin: 0 auto 1.5rem;
+440:     padding: 0.9rem 1.1rem;
+441:     background-color: #f9fafb;
+442:     border: 1px solid #e5e7eb;
+443:     border-radius: 10px;
+444:   }
+445: 
+446:   .stat-row {
+447:     display: flex;
+448:     justify-content: space-between;
+449:     align-items: center;
+450:     gap: 1rem;
+451:     font-size: 0.95rem;
+452:   }
+453: 
+454:   .stat-label {
+455:     color: #4b5563;
+456:     text-align: left;
+457:   }
+458: 
+459:   .stat-value {
+460:     font-weight: 700;
+461:     color: #111827;
+462:     font-variant-numeric: tabular-nums;
+463:   }
+464: 
+465:   .stat-value.correct {
+466:     color: #16a34a;
+467:   }
+468: 
+469:   .stat-value.wrong {
+470:     color: #dc2626;
+471:   }
+472: 
+473:   .sr-only {
+474:     position: absolute;
+475:     width: 1px;
+476:     height: 1px;
+477:     overflow: hidden;
+478:     clip: rect(0, 0, 0, 0);
+479:   }
+480: </style>
+</file>
+
+<file path="src/main.ts">
+1: import { mount } from 'svelte'
+2: import './app.css'
+3: import App from './App.svelte'
+4: 
+5: const app = mount(App, {
+6:   target: document.getElementById('app')!,
+7: })
+8: 
+9: export default app
+</file>
+
+<file path="src/questions.json">
+ 1: [
+ 2:   { "question": "5 - 3", "answer": "2" },
+ 3:   { "question": "10 - 4", "answer": "6" },
+ 4:   { "question": "8 - 5", "answer": "3" },
+ 5:   { "question": "12 - 7", "answer": "5" },
+ 6:   { "question": "9 - 9", "answer": "0" },
+ 7:   { "question": "15 - 6", "answer": "9" },
+ 8:   { "question": "20 - 11", "answer": "9" },
+ 9:   { "question": "14 - 8", "answer": "6" },
+10:   { "question": "12 - 4", "answer": "4" },
+11:   { "question": "15 - 4", "answer": "11" },
+12:   { "question": "22 - 8", "answer": "14" },
+13:   { "question": "7 - 4", "answer": "3" },
+14:   { "question": "11 - 3", "answer": "8" },
+15:   { "question": "13 - 5", "answer": "8" },
+16:   { "question": "15 - 7", "answer": "8" },
+17:   { "question": "19 - 4", "answer": "15" },
+18:   { "question": "20 - 4", "answer": "16" },
+19:   { "question": "14 - 4", "answer": "10" },
+20:   { "question": "11 - 6", "answer": "5" },
+21:   { "question": "10 - 7", "answer": "3" },
+22:   { "question": "9 - 4", "answer": "5" },
+23:   { "question": "10 - 3", "answer": "7" },
+24:   { "question": "15 - 9", "answer": "4" },
+25:   { "question": "13 - 10", "answer": "3" },
+26:   { "question": "19 - 12", "answer": "7" }
+27: ]
+</file>
+
+<file path=".gitignore">
+ 1: # Logs
+ 2: logs
+ 3: *.log
+ 4: npm-debug.log*
+ 5: yarn-debug.log*
+ 6: yarn-error.log*
+ 7: pnpm-debug.log*
+ 8: lerna-debug.log*
+ 9: 
+10: node_modules
+11: dist
+12: dist-ssr
+13: *.local
+14: 
+15: # Editor directories and files
+16: .vscode/*
+17: !.vscode/extensions.json
+18: .idea
+19: .DS_Store
+20: *.suo
+21: *.ntvs*
+22: *.njsproj
+23: *.sln
+24: *.sw?
+</file>
+
+<file path="index.html">
+ 1: <!doctype html>
+ 2: <html lang="en">
+ 3:   <head>
+ 4:     <meta charset="UTF-8" />
+ 5:     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+ 6:     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 7:     <title>subtraction</title>
+ 8:   </head>
+ 9:   <body>
+10:     <div id="app"></div>
+11:     <script type="module" src="/src/main.ts"></script>
+12:   </body>
+13: </html>
+</file>
+
+<file path="package.json">
+ 1: {
+ 2:   "name": "subtraction",
+ 3:   "private": true,
+ 4:   "version": "0.0.0",
+ 5:   "type": "module",
+ 6:   "scripts": {
+ 7:     "dev": "vite --host",
+ 8:     "build": "vite build",
+ 9:     "preview": "vite preview",
+10:     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
+11:   },
+12:   "devDependencies": {
+13:     "@sveltejs/vite-plugin-svelte": "^7.3.1",
+14:     "@tsconfig/svelte": "^5.0.8",
+15:     "@types/node": "^24.19.2",
+16:     "svelte": "^5.57.3",
+17:     "svelte-check": "^4.7.7",
+18:     "typescript": "~6.0.3",
+19:     "vite": "^8.3.6"
+20:   }
+21: }
+</file>
+
+<file path="README.md">
+ 1: # Svelte + TS + Vite
+ 2: 
+ 3: This template should help get you started developing with Svelte and TypeScript in Vite.
+ 4: 
+ 5: ## Recommended IDE Setup
+ 6: 
+ 7: [VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+ 8: 
+ 9: ## Need an official Svelte framework?
+10: 
+11: Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+12: 
+13: ## Technical considerations
+14: 
+15: **Why use this over SvelteKit?**
+16: 
+17: - It brings its own routing solution which might not be preferable for some users.
+18: - It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+19: 
+20: This template contains as little as possible to get started with Vite + TypeScript + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+21: 
+22: Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+23: 
+24: **Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+25: 
+26: Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+27: 
+28: **Why include `.vscode/extensions.json`?**
+29: 
+30: Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+31: 
+32: **Why enable `allowJs` in the TS template?**
+33: 
+34: While `allowJs: false` would indeed prevent the use of `.js` files in the project, it does not prevent the use of JavaScript syntax in `.svelte` files. In addition, it would force `checkJs: false`, bringing the worst of both worlds: not being able to guarantee the entire codebase is TypeScript, and also having worse typechecking for the existing JavaScript. In addition, there are valid use cases in which a mixed codebase may be relevant.
+35: 
+36: **Why is HMR not preserving my local component state?**
+37: 
+38: HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
+39: 
+40: If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
+41: 
+42: ```ts
+43: // store.ts
+44: // An extremely simple external store
+45: import { writable } from 'svelte/store'
+46: export default writable(0)
+47: ```
+</file>
+
+<file path="svelte.config.js">
+1: /** @type {import("@sveltejs/vite-plugin-svelte").SvelteConfig} */
+2: export default {}
+</file>
+
+<file path="tsconfig.app.json">
+ 1: {
+ 2:   "extends": "@tsconfig/svelte/tsconfig.json",
+ 3:   "compilerOptions": {
+ 4:     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+ 5:     "target": "es2023",
+ 6:     "module": "esnext",
+ 7:     "types": ["svelte", "vite/client"],
+ 8:     "allowArbitraryExtensions": true,
+ 9:     "noEmit": true,
+10:     /**
+11:      * Typecheck JS in `.svelte` and `.js` files by default.
+12:      * Disable checkJs if you'd like to use dynamic types in JS.
+13:      * Note that setting allowJs false does not prevent the use
+14:      * of JS in `.svelte` files.
+15:      */
+16:     "allowJs": true,
+17:     "checkJs": true,
+18:     "moduleDetection": "force"
+19:   },
+20:   "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.svelte"]
+21: }
+</file>
+
+<file path="tsconfig.json">
+1: {
+2:   "files": [],
+3:   "references": [
+4:     { "path": "./tsconfig.app.json" },
+5:     { "path": "./tsconfig.node.json" }
+6:   ]
+7: }
+</file>
+
+<file path="tsconfig.node.json">
+ 1: {
+ 2:   "compilerOptions": {
+ 3:     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+ 4:     "target": "es2023",
+ 5:     "lib": ["ES2023"],
+ 6:     "types": ["node"],
+ 7:     "skipLibCheck": true,
+ 8: 
+ 9:     /* Bundler mode */
+10:     "module": "nodenext",
+11:     "allowImportingTsExtensions": true,
+12:     "verbatimModuleSyntax": true,
+13:     "moduleDetection": "force",
+14:     "noEmit": true,
+15: 
+16:     /* Linting */
+17:     "noUnusedLocals": true,
+18:     "noUnusedParameters": true,
+19:     "erasableSyntaxOnly": true,
+20:     "noFallthroughCasesInSwitch": true
+21:   },
+22:   "include": ["vite.config.ts"]
+23: }
+</file>
+
+<file path="vite.config.ts">
+1: import { svelte } from '@sveltejs/vite-plugin-svelte'
+2: import { defineConfig } from 'vite'
+3: 
+4: // https://vite.dev/config/
+5: export default defineConfig({
+6:   plugins: [svelte()],
+7: })
+</file>
+
+</files>
