@@ -7,7 +7,7 @@
   { "question": "15 - 6", "answer": "9" },
   { "question": "20 - 11", "answer": "9" },
   { "question": "14 - 8", "answer": "6" },
-  { "question": "12 - 4", "answer": "4" },
+  { "question": "12 - 4", "answer": "8" },
   { "question": "15 - 4", "answer": "11" },
   { "question": "22 - 8", "answer": "14" },
   { "question": "7 - 4", "answer": "3" },
@@ -21,7 +21,12 @@
   { "question": "10 - 7", "answer": "3" },
   { "question": "9 - 4", "answer": "5" },
   { "question": "10 - 3", "answer": "7" },
-  { "question": "15 - 9", "answer": "4" },
+  { "question": "15 - 9", "answer": "6" },
   { "question": "13 - 10", "answer": "3" },
-  { "question": "19 - 12", "answer": "7" }
+  { "question": "19 - 12", "answer": "7" },
+  { "question": "12 - 9", "answer": "3" },
+  { "question": "11 - 7", "answer": "4" },
+  { "question": "9 - 7", "answer": "2" },
+  { "question": "19 - 15", "answer": "4" },
+  { "question": "16 - 7", "answer": "9" },
 ]
